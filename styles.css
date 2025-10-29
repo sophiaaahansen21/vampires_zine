@@ -1,0 +1,23 @@
+body { 
+    background-color: rgb(139, 138, 140);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(104, 2, 2);
+    text-align: center;
+    font-family: 'elementary';
+}
+
+.bodytext { 
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'times new roman';
+}
+
+@font-face {
+    font-family: 'elementary';
+    src: url(fonts/Gothicfed.ttf);
+}
+
