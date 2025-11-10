@@ -1,18 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vampires</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nocturne Institute Yearbook</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
 
+    .frontofbook-container {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+    }
+
+    .frontofbook {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .title-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      pointer-events: none;
+    }
+
+    .title {
+      font-family: 'Gothicfed', serif;
+      font-size: 4vw;
+      color: #d9b88f;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      text-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+      margin: 0;
+    }
+  </style>
+</head>
 <body>
-    <div>
-        <h1>VAMPIRES</h1>
-        <p class="bodytext">
-            My zine will explore the history of vampires, starting with what a vampire is, their origin, sightings of them, and famous vampires in literature and media. It will explore visually the different forms and interpretations of vampires throughout history. The theme of the zine will lean more towards a Gothic vibe, heavily using reds, blacks, and deep purples to reflect the moodiness and haunting feel of them. Through this zine, it will aim to capture how vampires reflect humanity’s fascination with immortality, and fear.
-        </p>
+  <div class="frontofbook-container">
+    <img src="images/frontofbook.jpg" alt="front of book" class="frontofbook">
+    <div class="title-container">
+      <h1 class="title">Nocturne Institute</h1>
     </div>
+
+        <div class="key-container">
+      <img src="images/key.png" alt="Key">
+    </div>
+  </div>
 </body>
 </html>
